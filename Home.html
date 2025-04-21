@@ -3,11 +3,51 @@
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Home</title>
+  <title>Edit</title>
    <link rel="stylesheet" href="styles/common.css">
-  <link rel="stylesheet" href="styles/Home.css">
+  <link rel="stylesheet" href="styles/Edit.css">
 </head>
-<body>  
-  <div>hi</div>
+<body>
+   <div>
+    <!----NavOptions Add EDIT CLEAR---->
+<nav class="navbar">
+  <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="Add.html">Add</a></li>
+    <li><a>Edit</a></li>
+  </ul>   
+</nav>
+<!--------------End---------------->
+  
+ <h2 class="update-tag">Edit Below :</h2>
+    <div class="edit-selection-div">
+     <div>
+      <label>Select Gt :</label>
+      <select class="edit-gt-select">
+        <option>Select GT</option>
+      </select>
+    </div>
+  
+    <button class="initial-edit-button">Edit</button>
+    </div>
+    <hr><hr>
+    <input type = "date" class= "hidden-date-input">
+ 
+    
+  <div class="render-selected">  
+  </div>
+    
+    
+    <div class="warning-popUp">
+      <div class="warning-content">
+        <p class="warning-matter">Are You Sure?</p>
+        <button class="warning-yes-button">Yes</button>
+        <button class="warning-no-button">No</button>
+      </div>
+    </div>
+     
+  <script type="module" src="scripts/Firebase data.js"></script>
+     <!--<script src="scripts/Common script.js"></script>
+  <script src="scripts/Edit.js"></script>-->
 </body>
 </html>
