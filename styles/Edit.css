@@ -3,7 +3,7 @@
   background: linear-gradient(to left, blue,red);  
   padding:8px;        
   text-align: center;
-  font-size:200px;
+  font-size:20px;
   color : white;    
 }
 
@@ -73,8 +73,8 @@
 
 .render-sub-button{
     margin-left: 15px;
-    background: linear-gradient(135deg, #5f9ea0);
-    /*background-color: #0ea5e9;*/
+    /*background: linear-gradient(135deg, #5f9ea0);*/
+    background-color: #0ea5e9;
     width: 220px;
     height: 40px;
     border-radius: 03px;
