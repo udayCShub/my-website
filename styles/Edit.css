@@ -64,7 +64,7 @@
 }
 
 .render-main-button{
-    background: linear-gradient(135deg,#800000);
+    background-color:red;
     /*background-color: #4f46e5;*/
     width: 220px;
     height: 40px;
