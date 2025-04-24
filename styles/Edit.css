@@ -73,7 +73,7 @@
 }
 
 .render-main-button{
-    background: linear-gradient(135deg,#800000);
+    background:#800000 ;
     /*background-color: #4f46e5;*/
     width: 220px;
     height: 40px;
@@ -82,7 +82,7 @@
 
 .render-sub-button{
     margin-left: 15px;
-    background: linear-gradient(135deg, #5f9ea0);
+    background: #5f9ea0;
     /*background-color: #0ea5e9;*/
     width: 220px;
     height: 40px;
